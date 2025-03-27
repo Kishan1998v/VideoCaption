@@ -1,12 +1,77 @@
-# React + Vite
+# Video Caption Creator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to add and manage captions for online videos. Built with React, Material-UI, and react-player.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add captions to online videos (YouTube, Vimeo, etc.)
+- Specify start and end times for each caption
+- Real-time caption display during video playback
+- Delete and manage captions
+- Responsive design for all screen sizes
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Material-UI (MUI)
+- react-player
+- Vite
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Kishan1998v/VideoCaption.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd VideoCaption
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:5173`
+
+## Usage
+
+1. Enter a video URL in the input field
+2. Add captions by:
+   - Entering caption text
+   - Specifying start time (in seconds)
+   - Specifying end time (in seconds)
+3. Click "Add Caption" to save the caption
+4. Play the video to see captions appear at their specified times
+5. Delete captions using the delete button next to each caption
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Material-UI for the component library
+- react-player for video playback functionality
