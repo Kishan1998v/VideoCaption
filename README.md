@@ -1,6 +1,8 @@
 # Video Caption Creator
 
 A React-based web application that allows users to add and manage captions for online videos. Built with React, Material-UI, and react-player.
+## Live Link 
+-  App : https://kishan1998v.github.io/VideoCaption/
 
 ## Features
 
@@ -59,19 +61,6 @@ The application will be available at `http://localhost:5173`
 4. Play the video to see captions appear at their specified times
 5. Delete captions using the delete button next to each caption
 
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Material-UI for the component library
-- react-player for video playback functionality
