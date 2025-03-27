@@ -4,6 +4,7 @@ import VideoPlayer from './components/VideoPlayer'
 import CaptionForm from './components/CaptionForm'
 import CaptionList from './components/CaptionList'
 import './App.css'
+import Footer from './components/Footer'
 
 function App() {
   const [videoUrl, setVideoUrl] = useState('')
@@ -45,7 +46,7 @@ function App() {
   }
 
   return (
-    <Container maxWidth="xl">
+    <Container maxWidth="lg">
       <Box sx={{ my: 4 }}>
         <Typography variant="h4" component="h1" gutterBottom>
           Video Caption Creator
@@ -83,7 +84,7 @@ function App() {
                 onAddCaption={handleAddCaption}
               />
             </Paper>
-            
+
             {captions.length > 0 && (
               <Paper sx={{ p: 2 }}>
                 <CaptionList
@@ -95,6 +96,7 @@ function App() {
           </div>
         </section>  
       </Box>
+      <Footer />
     </Container>
   )
 }
